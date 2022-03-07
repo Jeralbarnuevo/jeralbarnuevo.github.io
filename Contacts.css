@@ -1,0 +1,117 @@
+.contacts{
+    width: 100%;
+    box-sizing: border-box;
+    padding:5rem 0;
+    margin-bottom: 200px;
+
+}
+.contacts h1{
+    margin:50px 0 40px 50px;
+    font-weight: 700;
+    font-size: 5.5rem;
+}
+.contacts .container4{
+    background-color: #E2E2E2;
+    box-sizing: border-box;
+    margin:0 50px 0 50px;
+    display: flex;
+    color: #272727;
+    flex-direction: column;
+    padding:4.5rem;
+    gap:10px;
+}
+.contacts .container4 .info h3 span{
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.contacts .container4 .info h3 {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+.contacts .container4 .text h2{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.contacts .container4 .text h3{
+    font-size: 2.5rem;
+    font-weight:300;
+}
+.contacts .container4 .text h3 span{
+    font-weight: 700;
+} 
+.contacts .container4 .info a{
+    text-decoration: none;
+    color:#272727;
+}
+
+.footer{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:5rem;
+  
+}
+.footer h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.footer .links a{
+    color:#272727;
+    font-size: 2.5rem;
+    margin:10px 10px 0 0;
+}
+@media all and (max-width:771px){
+    .contacts h1{
+        text-align: center;
+        font-size: 10vmin;
+        margin:0 0 40px 0;
+    }
+    .contacts .container4 .info {
+        display: flex;
+        align-items: flex-start;
+        justify-content: start;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .contacts .container4{
+        
+    }
+    .contacts .container4 .info h3 span{
+        font-size: 5vmin;
+    }
+    .contacts .container4 .info h3{
+        font-size: 5vmin;
+    }
+    .contacts .container4 .text h2{
+        font-size: 6vmin;
+    }
+    .contacts .container4 .text h3{
+        font-size: 5vmin;
+    }
+    .contacts .container4 .text h3 span{
+        font-size: 5vmin;
+    }
+    .contacts .container4 .info a{
+        font-size: 4.5vmin;
+    }
+
+
+
+}
+@media all and (max-width:771px){
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .footer .logo h1{
+        text-align: center;
+    }
+    .footer .logo .links{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

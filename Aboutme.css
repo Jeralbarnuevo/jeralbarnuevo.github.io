@@ -1,0 +1,106 @@
+/*AboutME*/
+.container-fluid{
+    width: 100%;
+    box-sizing: border-box;
+    margin:100px 0 200px 0;
+}
+.container-fluid h1{
+    margin:50px 0 0 50px;
+    font-weight: 700;
+    font-size: 5.5rem;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap:5rem;
+    padding:5.5rem;
+}
+.container-flud .text{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    width:100%;
+   
+
+}
+.container-fluid .text h2{
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+.container-fluid .text p{
+    font-size: 1.6rem;
+    padding:2rem 0;
+}
+.container-fluid .image1{
+    width: 100%;
+}
+.container-fluid .image1 img{
+    max-width: 100%;
+    border:1px black solid;
+    border-radius: 500px;
+}
+.container-fluid .box .text .link a span{
+    color:#272727;
+    font-size: 2.5rem;
+    margin:10px 20px 0 0;
+    text-decoration: none;
+
+}
+
+.skills h1{
+    margin:0;
+    font-size: 3.5rem;
+    margin:50px 0 20px 0;
+}
+.container-fluid .box .text .contain{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:20px;
+}
+.contain .icon{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.icon i{
+    font-size: 4.5rem;
+}
+.name{
+    font-size: 1.5rem;
+}
+@media all and (max-width:771px){
+    .container-fluid .image1 {
+        width: 8    0%;
+    }
+    .container-fluid h1{
+        text-align: center;
+        margin: 50px 0 0 0;
+        font-size: 10vmin;
+    }
+    .container-fluid .box{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .container-fluid .box .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .container-fluid .box .text .contain{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .container-fluid     .box .text .skills h1{
+        margin:50px 0 30px 0;
+    }
+   
+}

@@ -1,0 +1,182 @@
+/*Projects*/
+.projects{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 200px;
+}
+.projects h1{
+    margin:50px 0 0 50px;
+    font-weight: 700;
+    font-size: 5.5rem;
+}
+.projects .main-box{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:3.5rem;
+    gap:10px;
+    
+   
+    
+}
+.projects .main-box img{
+    max-width: 100%;
+}
+.projects .main-box .box1{
+    width:500px;
+    position: relative;
+    
+   
+}
+.projects .main-box .box1:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: 1s;
+}
+.projects .main-box .box2{
+    width:500px;
+    position: relative;
+   
+  
+}
+.projects .main-box .box2:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: 1s;
+}
+.projects .main-box .box3{
+    width:530px;
+    position: relative;
+    
+}
+.projects .main-box .box3:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: 1s;
+}
+.projects .main-box .box4{
+    width:540px;
+    position: relative;
+  
+}
+.projects .main-box .box4:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: 1s;
+}
+@media all and (max-width:771px){
+    .projects h1{
+        text-align: center;
+        margin: 0;
+        font-size: 10vmin;
+    }
+    .projects .main-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .projects .main-box .box1{
+        width: 100%;
+    }
+    .projects .main-box .box2{
+        width: 100%;
+    }
+    .projects .main-box .box3{
+        width: 100%;
+    }
+    .projects .main-box .box4{
+        width: 100%;
+    }
+}
+.projects .main-box .box1 .pop{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.7);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-weight: 600;
+    opacity:0;
+    transition: opacity 1s;
+}
+.projects .main-box .box2 .pop{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.7);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-weight: 600;
+    opacity:0;
+    transition: opacity 1s;
+}
+.projects .main-box .box3 .pop{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.7);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-weight: 600;
+    opacity:0;
+    transition: opacity 1s;
+}
+.projects .main-box .box4 .pop{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.7);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-weight: 600;
+    opacity:0;
+    transition: opacity 1s;
+}
+.projects .main-box .box1 .pop:hover{
+    opacity: 1;
+    transition: 1s;
+}
+
+.projects .main-box .box2 .pop:hover{
+    opacity: 1;
+    transition: 1s;
+}
+
+.projects .main-box .box3 .pop:hover{
+    opacity: 1;
+    transition: 1s;
+}
+
+.projects .main-box .box4 .pop:hover{
+    opacity: 1;
+    transition: 1s;
+}
+.projects .main-box .pop h3{
+    font-family:'Roboto', sans-serif;
+    font-size: 1.5rem;
+
+}
